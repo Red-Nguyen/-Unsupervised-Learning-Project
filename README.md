@@ -1,4 +1,5 @@
 Part I: EDA 
+
 	- Exploratory Data Analysis & Pre-processing
 	- Data Import: Load the dataset.
 	- Data Cleaning: Handle missing data and correct errors.
@@ -10,6 +11,7 @@ Part I: EDA
 	- Feature Selection: Determine important features using PCA.
 	
 Part II: KMeans Clustering
+
 	- Determine optimal clusters.
 	- Pre-process data.
 	- Initialize centroids.
@@ -18,13 +20,16 @@ Part II: KMeans Clustering
 	- Repeat until convergence.
 	
 Part III: Hierarchical Clustering
+
 	- Pre-process data.
 	- Determine optimal clusters using dendrogram.
 	
 Part IV: PCA - Principal Component Analysis
+
 	- Analyze variance explained by each principal component.
 	
 Part V: Conclusion
+
 	1. EDA: 
 		- The data does not follow a normal distribution.
 		- Some features exhibit high correlation:
