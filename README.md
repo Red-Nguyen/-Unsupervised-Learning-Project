@@ -1,17 +1,50 @@
-# machine_learning_project-unsupervised-learning
-
-## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
-### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
-
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
-
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
-
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
-
+Part I: EDA 
+	- Exploratory Data Analysis & Pre-processing
+	- Data Import: Load the dataset.
+	- Data Cleaning: Handle missing data and correct errors.
+	- Data Description: Compute summary statistics.
+	- Data Visualization: Create visualizations to explore relationships.
+	- Outlier Detection: Identify and handle outliers.
+	- Correlation Analysis: Examine correlations between features.
+	- Data Transformation: Standardize or normalize data.
+	- Feature Selection: Determine important features using PCA.
+	
+Part II: KMeans Clustering
+	- Determine optimal clusters.
+	- Pre-process data.
+	- Initialize centroids.
+	- Assign data points to clusters.
+	- Update centroids.
+	- Repeat until convergence.
+	
+Part III: Hierarchical Clustering
+	- Pre-process data.
+	- Determine optimal clusters using dendrogram.
+	
+Part IV: PCA - Principal Component Analysis
+	- Analyze variance explained by each principal component.
+	
+Part V: Conclusion
+	1. EDA: 
+		- The data does not follow a normal distribution.
+		- Some features exhibit high correlation:
+			- Detergents_Paper & Grocery: 0.89
+			- Grocery & Milk: 0.77
+			- Detergents_Paper & Milk: 0.70
+		- Some features have low correlation:
+			- Frozen & Grocery: -0.16
+			- Milk & Fresh: -0.14
+			- Frozen & Milk: -0.05    
+			- Features with the highest importance specific to Principal Component Analysis (PCA) are: Fresh, Delicassen, Frozen.
+	2. KMeans Clustering:
+		- The data can be effectively separated into 4 clusters.
+		- Using log transformation and standard scaling improves clustering results with this data. 
+	3. Hierarchical Clustering :
+		- The data can also be separated into 4 clusters effectively using hierarchical clustering. 
+	4. PCA:
+		- PC1 captures 44.4% of the variance in the data
+		- PC2 captures 25.6%
+		- PC3 captures 11.1%
+		- PC4 captures 10.6%
+		- PC5 captures 4.9%
+		- PC6 captures the remaining 3.1%.
