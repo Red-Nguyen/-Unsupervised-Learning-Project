@@ -1,5 +1,5 @@
 Part I: EDA 
-- Exploratory Data Analysis & Pre-processing
+Exploratory Data Analysis & Pre-processing
   
 	Data Import: Load the dataset.
 
