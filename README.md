@@ -1,5 +1,4 @@
 Part I: EDA 
-
 	- Exploratory Data Analysis & Pre-processing
 	- Data Import: Load the dataset.
 	- Data Cleaning: Handle missing data and correct errors.
@@ -11,7 +10,6 @@ Part I: EDA
 	- Feature Selection: Determine important features using PCA.
 	
 Part II: KMeans Clustering
-
 	- Determine optimal clusters.
 	- Pre-process data.
 	- Initialize centroids.
