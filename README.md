@@ -23,16 +23,15 @@
       	- Cluster 3 (Budget Shoppers): Low spending across all categories except for Fresh, Frozen & Grocery
 	
 ## Part III: Hierarchical Clustering
-- Pre-process data.
-- Determine optimal clusters using dendrogram.
+- Pre-process data
+- Determine optimal clusters using dendrogram
 	
 ## Part IV: PCA - Principal Component Analysis
-
-	- Analyze variance explained by each principal component.
-	- Cluster analysis:
-        	- Cluster 0:  Given their high spending on Milk, Grocery, and Detergents_Paper but lower spending on Detergents_Paper and frozen products, this cluster likely represents stores that don't focus on perishable items. These could be smaller supermarkets or convenience stores.
-        	- Cluster 1: Given their high spending on Fresh items and low spending on Delicassen and Detergents_Paper, these are likely establishments that need a lot of fresh produce. This points towards restaurants, cafes, or fresh markets.
-        	- Cluster 2: This cluster has a diversified spending pattern, leaning more towards Fresh, Milk, and Grocery items, but also has a significant spend on Delicassen. This could represent larger supermarkets or hypermarkets which have a broad range of items, including specialty or delicacy items.
+- Analyze variance explained by each principal component
+- Cluster analysis:
+	- Cluster 0:  Given their high spending on Milk, Grocery, and Detergents_Paper but lower spending on Detergents_Paper and frozen products, this cluster likely represents stores that don't focus on perishable items. These could be smaller supermarkets or convenience stores.
+   	- Cluster 1: Given their high spending on Fresh items and low spending on Delicassen and Detergents_Paper, these are likely establishments that need a lot of fresh produce. This points towards restaurants, cafes, or fresh markets.
+      	- Cluster 2: This cluster has a diversified spending pattern, leaning more towards Fresh, Milk, and Grocery items, but also has a significant spend on Delicassen. This could represent larger supermarkets or hypermarkets which have a broad range of items, including specialty or delicacy items.
 ## Part V: Conclusion
 	1. EDA: 
 		- The data does not follow a normal distribution.
