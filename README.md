@@ -17,10 +17,10 @@
 - Update centroids
 - Repeat until convergence
 - Cluster analysis:
-	- Cluster 0 (Luxury Grocery Shoppers): High spending on Milk, Grocery, and Detergents_Paper. Moderate spending on Fresh.
-    	- Cluster 1 (Fresh Produce Enthusiasts): Predominantly purchases Fresh products, followed by Frozen goods. Also, spends moderately on Milk, Grocery.
-       	- Cluster 2 (Grocery Bulk Buyers): Major purchases are made in the Grocery category, closely followed by Fresh and Milk. They also have a considerable purchase of Detergents_Paper.
-      	- Cluster 3 (Budget Shoppers): Low spending across all categories except for Fresh, Frozen & Grocery.
++ Cluster 0 (Luxury Grocery Shoppers): High spending on Milk, Grocery, and Detergents_Paper. Moderate spending on Fresh
+    	- Cluster 1 (Fresh Produce Enthusiasts): Predominantly purchases Fresh products, followed by Frozen goods. Also, spends moderately on Milk, Grocery
+       	- Cluster 2 (Grocery Bulk Buyers): Major purchases are made in the Grocery category, closely followed by Fresh and Milk. They also have a considerable purchase of Detergents_Paper
+      	- Cluster 3 (Budget Shoppers): Low spending across all categories except for Fresh, Frozen & Grocery
 	
 ## Part III: Hierarchical Clustering
 - Pre-process data
