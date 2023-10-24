@@ -1,20 +1,12 @@
 Part I: EDA 
 Exploratory Data Analysis & Pre-processing
-  
 	Data Import: Load the dataset.
-
 	Data Cleaning: Handle missing data and correct errors.
-
 	Data Description: Compute summary statistics.
-
 	Data Visualization: Create visualizations to explore relationships.
-
 	Outlier Detection: Identify and handle outliers.
-
 	Correlation Analysis: Examine correlations between features.
-
 	Data Transformation: Standardize or normalize data.
-
 	Feature Selection: Determine important features using PCA.
 	
 Part II: KMeans Clustering
