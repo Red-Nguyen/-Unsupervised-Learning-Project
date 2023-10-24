@@ -1,5 +1,6 @@
 Part I: EDA 
 - Exploratory Data Analysis & Pre-processing
+  
 	Data Import: Load the dataset.
 
 	Data Cleaning: Handle missing data and correct errors.
